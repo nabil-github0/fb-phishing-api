@@ -18,7 +18,7 @@ app.post("/login", (req,res) => {
         password:password,
         time: new Date().toLocaleString([], { timeZone: "Asia/Dhaka" })
     })
-    res.json("Congratulation...hehe...lol");
+    res.json("success");
 })
 
 app.listen(4000, () => {
